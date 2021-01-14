@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Demo app for Evolve-Digitas</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4>This is a Demo app for Evolve-Digitas</h4>
+                <p>Among the several dummy input fields below, whenever a phone-number or email-id is entered, it will
+                    be saved/updated to databases(both SQL & NoSQL)</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="dummy1">Dummy 1</label>
+                                <input class="form-control" type="text" id="dummy1" name="dummy1"><br><br>
+                            </div>
+                            <div class="form-group">
+
+                                <label for="dummy2">Dummy 2</label>
+                                <input class="form-control" type="text" id="dummy2" name="dummy2"><br><br>
+                            </div>
+                            <div class="form-group">
+
+                                <label for="dummy3">Dummy 3</label>
+                                <input class="form-control" type="text" id="dummy3" name="dummy3"><br><br>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <h4>These are the results saved in databases</h4>
+
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="sql-tab" data-bs-toggle="tab" href="#sql" role="tab"
+                                    aria-controls="sql" aria-selected="true">SQL(PHP)</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="nosql-tab" data-bs-toggle="tab" href="#nosql" role="tab"
+                                    aria-controls="nosql" aria-selected="false">NoSQL(NodeJS)</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="sql" role="tabpanel" aria-labelledby="sql-tab">
+
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                        This data is fetched from a SQL database using PHP
+                                        </thead>
+                                        <tbody>
+                                    <tr>
+                                        <th>Field</th>
+                                        <th>Value</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 1</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 2</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 3</td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="nosql" role="tabpanel" aria-labelledby="nosql-tab">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                        This data is fetched from a NoSQL database using NodeJs
+                                        </thead>
+                                        <tbody>
+                                    <tr>
+                                        <th>Field</th>
+                                        <th>Value</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 1</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 2</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dummy 3</td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="card-body bordered" style="border-left: 3px solid gray;">
+                        <h4>
+                            Explanation
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
