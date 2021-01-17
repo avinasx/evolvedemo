@@ -45,7 +45,7 @@ Copy of the problem statement:
 
 ### Installation
 
-App requires [Node.js](https://nodejs.org/) v4+ to run.
+App requires [Node.js](https://nodejs.org/) v14+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
