@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "6004899ebfe0604ad4c0e483"
+  },
+  "inputVal": "1234567896",
+  "inputId": "nodummy1",
+  "inputType": "phone"
+},{
+  "_id": {
+    "$oid": "60048a7d16ebdd202cd32105"
+  },
+  "inputVal": "9090898978",
+  "inputId": "nodummy2",
+  "inputType": "phone"
+},{
+  "_id": {
+    "$oid": "60048b16bed8401f28f9630f"
+  },
+  "inputVal": "vdshfsvgd@kfjsdgf.com",
+  "inputId": "nodummy3",
+  "inputType": "email"
+}]
