@@ -1,6 +1,6 @@
 # Demo App
 
-Copy of problem statement:
+Copy of the problem statement:
   - "Create a small demo program in PHP and Nodejs. The program needs to use JS to read all the entries done on the page and whenever a phone number or email is entered by the user it should pick it up and store it in the database.".
   
 
