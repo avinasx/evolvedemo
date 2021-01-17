@@ -20,7 +20,6 @@ app.post('/', function (request, response) {
                 await create(requestData);
             }
             result = await getDocs();
-            console.dir(result);
             response.send(result); 
           })();
     }
@@ -45,14 +44,12 @@ async function getDocs() {
     } catch (e) {
         console.error('Error:', e)
     }
-    finally {
-        client.close();
-    }
 };
 
 
 
 async function create(newData) {
+    await client.connect()
     query = await client.db("test").collection("test").findOne({ inputId: newData.inputId });
     if (query) {
         await  client.db("test").collection("test").updateOne({ inputId: newData.inputId }, { $set: newData });
