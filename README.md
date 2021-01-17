@@ -26,7 +26,7 @@ Copy of the problem statement:
 6. An HTML table below input fields shows data from both types of DB in corresponding tabs.
 
 # When?
-1. Whenever a phone number or email is entered, it is saved in the database along with a flag named "type" which tells if it is a phone number or email.
+1. Whenever a phone number or email is entered, it is saved/updated in the database along with a flag named "type" which tells if it is a phone number or email.
 2. Anything other than phone and email is not saved in DB.
 
 
